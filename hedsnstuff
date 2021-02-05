@@ -1,0 +1,50 @@
+https://github.com/foggva/v3code.git
+For every V3:
+For smaller subeads in V3:
+<style>
+.pb-f-enterprise-enterprise-topper .ent-topper .title-wrapper h1.title {
+   font-size: 3.5rem;
+   font-weight: bold;
+   max-width: 1200px; /* adjust this to help with headline breaks */
+}
+.pb-f-enterprise-enterprise-topper .ent-topper.headline-above-photo .title-wrapper .deck {
+   font-size: 1.25rem;
+   max-width: 900px; /* adjust this to help with headline breaks */
+}
+.pb-f-enterprise-enterprise-article-body .ent-article-body .main h3 {
+   font-size: 2rem;
+   font-weight: normal;
+}
+</style>
+//The adjustments below is: a slightly larger subheads than above and the width of the deck is smaller to help with headline breaks.
+<style>
+.pb-f-enterprise-enterprise-topper .ent-topper .title-wrapper h1.title {
+   font-size: 3.5rem;
+   font-weight: bold;
+   max-width: 1200px; /* adjust this to help with headline breaks */
+}
+.pb-f-enterprise-enterprise-topper .ent-topper.headline-above-photo .title-wrapper .deck {
+   font-size: 1.25rem;
+   max-width: 700px; /* adjust this to help with headline breaks */
+}
+.pb-f-enterprise-enterprise-article-body .ent-article-body .main h3 {
+   font-size: 2.5rem;
+   font-weight: normal;
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
