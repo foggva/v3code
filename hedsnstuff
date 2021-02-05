@@ -33,6 +33,112 @@ For smaller subeads in V3:
 }
 </style>
 
+FOR ILLUSTRATOR CREDIT:
+
+<script id="link-box-script" src="https://washingtonpost.com/wp-stat/enterprise-raw-code/link-box.js" data-url="/tablet/2020/09/15/road-recovery-what-you-need-know/"></script>
+<style>
+
+.contributor::after {
+    content: "\AIllustrations by Asia Pietrzyk";
+    white-space: pre;
+}
+
+</style>
+
+<script type="text/javascript">
+
+const bylines = document.querySelector('.contributor');
+const replaceAnd = bylines.innerHTML.replace(/,([^,]*)$/, ' and' + '$1');
+bylines.innerHTML = replaceAnd;
+
+</script>
+place in html in every v3:
+
+<style>
+    .pb-f-enterprise-enterprise-topper .ent-topper.headline-on-photo .topper-gradient.headline-top-left, .pb-f-enterprise-enterprise-topper .ent-topper.headline-on-photo .topper-gradient.headline-middle-left, .pb-f-enterprise-enterprise-topper .ent-topper.headline-on-photo .topper-gradient.headline-bottom-left {
+        background: none;
+    }
+    .pb-f-enterprise-enterprise-topper .ent-topper.headline-on-photo .topper-gradient .title-wrapper.shadow  {
+        text-shadow: none;
+    }
+    .pb-f-enterprise-enterprise-topper .title-wrapper.h-align-right .et_posterlabel, .pb-f-enterprise-enterprise-topper .title-wrapper.h-align-left .et_posterlabel {
+        display: none;
+    }
+    .pb-f-enterprise-enterprise-topper .ent-topper.headline-on-photo .topper-gradient .title-wrapper.max-width-45 {
+        max-width: 28%;
+        top: 18%;
+    }
+    .pb-f-enterprise-enterprise-topper .ent-topper.headline-on-photo .topper-gradient .title-wrapper h1.title {
+        font-size: 4rem;
+    }
+    .pb-f-enterprise-enterprise-topper .ent-topper.headline-on-photo .topper-gradient .title-wrapper .deck {
+        font-size: 1.1rem;
+    }
+    .pb-f-enterprise-enterprise-topper .topper-extra.whiteonblack {
+        background: white;
+        color: black;
+        margin-bottom: 10px;
+    }
+    .pb-f-enterprise-enterprise-topper .topper-extra.whiteonblack h1.title {
+        color: black;
+        font-size: 2.5rem;
+        padding-bottom: 10px;
+    }
+    @media (max-width:1080px) and (min-width:851px) {
+        .pb-f-enterprise-enterprise-topper .ent-topper.headline-on-photo .topper-gradient .title-wrapper h1.title {
+            font-size: 3rem;
+        }
+    }
+    @media (max-width:850px) and (min-width:600px) {
+        .pb-f-enterprise-enterprise-topper .ent-topper.headline-on-photo .topper-gradient .title-wrapper h1.title {
+            font-size: 2rem;
+        }
+        .pb-f-enterprise-enterprise-topper .ent-topper.headline-on-photo .topper-gradient .title-wrapper .deck {
+            font-size: 0.9rem;
+        }
+    }
+    @media (max-width:599px) {
+        .pb-f-enterprise-enterprise-topper .ent-topper.headline-on-photo.has-caption {
+            height: 50vh;
+        }
+    }
+    .v3-dropCap::first-letter {
+        font-family: 'PostoniWide';
+        font-size: 100px;
+        float: left;
+        margin: 15px 0 -5px 0; //firefox spacing
+        padding: 0 10px 0 0;
+        line-height: 71px;    //chrome spacing
+    }
+    .pb-f-enterprise-enterprise-article-body .ent-article-body.ent-layout-centered .main .ent-ad-leaderboard {
+        background: white;
+    }
+    .pb-f-enterprise-enterprise-article-body .ent-article-body.ent-layout-centered .main .ent-video.ent-video-fullwidth {
+        max-width: 900px;
+        margin: 0 auto;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+    .pb-f-enterprise-enterprise-article-body .ent-article-body.ent-layout-centered .main .ent-photo.ent-photo-fullwidth {
+        max-width: 900px;
+        margin: 0 auto;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+    .pb-f-enterprise-enterprise-article-body .ent-article-body.ent-layout-centered .main .ent-photo-grid  {
+        max-width: 900px;
+        margin: 0 auto;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+    .pb-f-enterprise-enterprise-article-body .ent-article-body.ent-layout-centered .main .ent-photo-grid-big-caption {
+        max-width: 900px;
+        margin: 0 auto;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+</style>
+
 
 
 
